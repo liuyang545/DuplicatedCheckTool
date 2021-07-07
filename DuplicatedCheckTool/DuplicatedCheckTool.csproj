@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{650AD15A-E168-4B82-897A-B23B84481AE3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ScanCompareDisk</RootNamespace>
-    <AssemblyName>ScanCompareDisk</AssemblyName>
+    <RootNamespace>DuplicatedCheckTool</RootNamespace>
+    <AssemblyName>DuplicatedCheckTool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
